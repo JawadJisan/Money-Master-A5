@@ -27,23 +27,25 @@
                 
                 <!-- main calculation -->
                 <h4>Income</h4>
-                <p class="input-align mx">Income : <input type="text"></p>
+                <p class="input-align mx">Income : <input id="incomeInput" type="text"></p>
 
             <!-- Expenses -->
             <h4>Expenses</h4>
-            <p class="input-align">Food : <input type="text"></p>
-            <p class="input-align">Rent : <input type="text"></p>
-            <p class="input-align">Clothes : <input type="text"></p>
+            <p class="input-align">Food : <input id="foodInput" type="text"></p>
+            <p class="input-align">Rent : <input id="rentInput" type="text"></p>
+            <p class="input-align">Clothes : <input id="clothesInput" type="text"></p>
+
+
             
             <!-- calculate button -->
-            <button class="d-grid col-8 mx-auto btn btn-sm btn-primary">Calculate</button>
+            <button id="calculateButton" class="d-grid col-8 mx-auto btn btn-sm btn-primary">Calculate</button>
 
             <!-- Total section -->
-            <h5>Total Expenses: <span>00</span> </h5>
-            <h5>Balance: <span>00</span> </h5>
+            <h5>Total Expenses: <span id="totalExpenses">00</span> </h5>
+            <h5>Balance: <span id="balance">00</span> </h5>
 
             <!-- save section -->
-            <p>Save : <input type="text"> % <button class="btn btn-sm btn-primary">save</button> </p>
+            <p>Save : <input id="saveInput" type="text"> % <button id="saveButton" class="btn btn-sm btn-primary">save</button> </p>
 
             
             <h5>Saving Amount: <span>00</span> </h5>
